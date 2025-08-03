@@ -7,8 +7,8 @@ function Profile() {
   return (
     <div>
       <h1>Welcome</h1>
-      <p>hello.</p>
-      <p>Age.</p>
+      <p>hello.{user.name}</p>
+      <p>Age.{user.age}</p>
     </div>
   )
 }

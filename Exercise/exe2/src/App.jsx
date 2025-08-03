@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import Profile from './components/Profile'
-import ContextProvider from './context/UserContextProvider'
+import React from 'react'
+import Profile from './Profile.jsx'
+import ContextProvider from './context/ContextProvider.jsx'
+import Home from './Home.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <ContextProvider>
 
       <Profile/>
+      <Home/>
     </ContextProvider>
   )
 }
