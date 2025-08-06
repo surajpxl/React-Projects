@@ -8,7 +8,6 @@ function App() {
 
   return (
     <ContextProvider>
-
       <Profile/>
       <Home/>
     </ContextProvider>
